@@ -1,0 +1,63 @@
+/* Color Palette
+#1B4332 - dark green (header & footer background, body text)
+#B7E4C7 - medium green (education background)
+#D8F3DC - light green (work experience background)
+#F8F9FA - off white (page background, header & footer text)
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #F8F9FA;
+    color: #1B4332;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #1B4332;
+    color: #F8F9FA;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+footer a {
+    color: #D8F3DC;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #D8F3DC;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: #B7E4C7;
+}
